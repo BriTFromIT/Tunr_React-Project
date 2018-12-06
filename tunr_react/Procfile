@@ -1,0 +1,5 @@
+proc files tells remote servers what to do to start servers
+
+
+web: gunicorn tunr_react.wsgi--log-file -
+
